@@ -374,8 +374,10 @@ main {
 
 .contacts-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr ;
+  gap: 16px;
+  padding:0;
+  list-style:none;
 }
 
 .contact-item {
@@ -383,6 +385,8 @@ main {
   display: flex;
   align-items: center;
   gap: 16px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.3);
+  transition:transform 0.2s,box-shadow 0.2s;
 }
 
 .contact-info {
@@ -1704,3 +1708,4 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 }
+
